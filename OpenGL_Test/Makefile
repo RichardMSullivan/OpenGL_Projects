@@ -1,7 +1,7 @@
 # Makefile for building Graphics demo on command line
 FILES 	= $(wildcard src/*.cpp) $(wildcard lib/*.cpp)
 OBJS	= $(FILES:.cpp=.o)
-TARGET 	= demo
+TARGET 	= application
 
 ifeq ($(OS), Windows_NT)
 	EXT = .exe
