@@ -5,7 +5,7 @@
 int main( int argc, char* argv[]){//makes sdl work
     
     Game game;
-    game.init("Richard Engine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 600, false);
+    game.init("Richard Engine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 600, true);
 
     while(game.running()){
 
